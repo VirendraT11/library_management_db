@@ -1,0 +1,9 @@
+CREATE INDEX idx_books_title ON books(title);
+CREATE INDEX idx_books_isbn ON books(isbn);
+CREATE INDEX idx_books_author ON books(author_id);
+CREATE INDEX idx_students_number ON students(student_number);
+CREATE INDEX idx_students_email ON students(email);
+CREATE INDEX idx_issuance_book ON issuance_records(book_id);
+CREATE INDEX idx_issuance_student ON issuance_records(student_id);
+CREATE INDEX idx_issuance_status ON issuance_records(status);
+CREATE INDEX idx_issuance_due_date ON issuance_records(due_date);
